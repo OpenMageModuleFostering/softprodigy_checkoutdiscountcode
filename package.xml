@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Softprodigy_CheckoutDiscountCode</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows customer to enter discount code at checkout process</summary>
+    <description>This extension allows customer to enter discount code at checkout process</description>
+    <notes>1.0.1 stable version</notes>
+    <authors><author><name>SoftProdigyINC</name><user>softprodigy</user><email>magento@softprodigy.com</email></author></authors>
+    <date>2015-07-29</date>
+    <time>07:57:00</time>
+    <contents><target name="magecommunity"><dir name="Softprodigy"><dir name="CheckoutDiscountCode"><dir name="Block"><dir name="Checkout"><file name="Cart.php" hash="b247bedeebbd0052125b49e8351b37ec"/><dir name="Onepage"><file name="Discountcode.php" hash="9203fcb3c328c4950202fec8bfbaf683"/><file name="Progress.php" hash="08dacc24165c187fb6cbda6d38a6ea0d"/></dir><file name="Onepage.php" hash="9d4d0e2897ce6afae4ecca59af1c5baf"/></dir></dir><dir name="Helper"><file name="Data.php" hash="563fc8bec19fc4f096aab0fa1f83a722"/></dir><dir name="Model"><file name="Observer.php" hash="c33f8a490a3dffc784e90dc3887a7674"/></dir><dir name="controllers"><file name="IndexController.php" hash="c666733d1319c3ee5eeeb3c930292b09"/></dir><dir name="etc"><file name="config.xml" hash="517913e384eb9f612b8a7c9db0b5ae6a"/><file name="system.xml" hash="7b665754e2061b06a82f609d3e6269a5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Softprodigy_CheckoutDiscountCode.xml" hash="4f5531c68867e1e6deb9225da7aafb6e"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="softprodigy_checkoutdiscountcode.xml" hash="08ddef38ef2c82137385cc32286ff574"/></dir><dir name="template"><dir name="softprodigy_checkoutcouponcode"><dir name="checkout"><dir name="onepage"><file name="discountcode.phtml" hash="94927cb26941edf79cd4b93022fbc982"/><file name="progress.phtml" hash="9bbb74039a66f3397394e6be89db5536"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="softprodigy_checkoutdiscountcode"><file name="checkout.js" hash="6a13a0d03be9d6676f0469721ebe39ec"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
