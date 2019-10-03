@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Softprodigy_CheckoutDiscountCode",
+    "name": "OpenMageModuleFostering\/Softprodigy_CheckoutDiscountCode",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "This extension allows customer to enter discount code at checkout process",
     "authors": [
-    {
-        "name": "SoftProdigyINC",
-        "email": "magento@softprodigy.com"
-    }
-],
+        {
+            "name": "SoftProdigyINC",
+            "email": "magento@softprodigy.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
